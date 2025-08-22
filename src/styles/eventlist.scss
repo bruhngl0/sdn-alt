@@ -6,7 +6,7 @@
   min-height: 100%;
   padding: 8px 8px 28px;
   align-items: center;
-  color: #584738;
+  color: #fff;
 }
 
 .topbar {
@@ -24,7 +24,7 @@
 
 
 .event-card {
-  background: #b59e7d; /* Your classy warm tone */
+  background: #000; /* Your classy warm tone */
   border-radius: var(--radius-2xl);
   overflow: hidden;
   position: relative;
@@ -104,11 +104,11 @@
   padding: 14px 14px 16px 14px;
   background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,0));
 
-  &__when { color: var(--muted); font-weight: 700; letter-spacing: .2px; margin-bottom: 6px; font-size: 14px; }
-  &__title { font-size: 14px; line-height: 1.25; margin: 0 0 6px; font-weight: 800; }
+  &__when { color: var(--muted);  letter-spacing: .2px; margin-bottom: 6px; font-size: 14px; }
+  &__title { font-size: 14px; line-height: 1.25; margin: 0 0 6px;  }
   &__presenters { color: #584738; font-size: 14px; margin-bottom: 6px; opacity: .9; }
   &__venue { color: var(--muted); font-size: 14px; margin-bottom: 6px; }
-  &__price { color: #584738; font-weight: 700; font-size: 14px; }
+  &__price { color: #fff;  font-size: 14px; }
   
 }
 
@@ -131,7 +131,7 @@
 
 .card-btn{
   padding: 7px 10px;
-  background: #584738;
+  background: rgb(181,87,31);
   color: #f5f5f5;
   font-size: 18px;
   margin-top: 1rem;
