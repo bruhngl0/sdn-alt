@@ -6,7 +6,7 @@ const events = [
   {
     id: "1",
     posterUrl: "sdn-event.png",
-    date: "Wednesday, 3th September, 2025.",
+    date: "Wednesday, 3rd September, 2025.",
     time: "7:00 PM onwards.",
     title: "Vegetarian Omakase Club.",
     price: "₹2500/- per person.",
